@@ -10,7 +10,7 @@ verifyFlutter () {
   
   flutter clean
   flutter pub get
-  flutter format --set-exit-if-changed .
+  dart format --set-exit-if-changed .
   flutter analyze --no-pub .
   flutter test
   
